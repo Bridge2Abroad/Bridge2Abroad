@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bridge2Abroad | Immigration Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f8fbff;
+      color: #0b3c5d;
+    }
+
+    header {
+      background: #0b3c5d;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: linear-gradient(to right, #0b3c5d, #1e90ff);
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h2 {
+      font-size: 40px;
+    }
+
+    .btn {
+      background: white;
+      color: #0b3c5d;
+      padding: 12px 25px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .countries {
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    .contact-box {
+      background: #0b3c5d;
+      color: white;
+      padding: 30px;
+      border-radius: 10px;
+      display: inline-block;
+    }
+
+    /* WhatsApp floating buttons */
+    .whatsapp {
+      position: fixed;
+      right: 15px;
+      background: #25D366;
+      color: white;
+      padding: 12px 16px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .whatsapp1 { bottom: 80px; }
+    .whatsapp2 { bottom: 20px; }
+
+    footer {
+      background: #0b3c5d;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .services {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Bridge2Abroad</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#services">Services</a>
+    <a href="#countries">Countries</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Your Gateway to Global Opportunities</h2>
+  <p>Trusted Immigration & Visa Consultancy Services</p>
+  <a href="#contact" class="btn">Get Consultation</a>
+</section>
+
+<section id="services" class="section">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Study Visa</h3>
+      <p>Complete guidance for studying abroad.</p>
+    </div>
+    <div class="card">
+      <h3>Work Visa</h3>
+      <p>Support for international job opportunities.</p>
+    </div>
+    <div class="card">
+      <h3>Tourist Visa</h3>
+      <p>Tourist visas for all countries worldwide.</p>
+    </div>
+    <div class="card">
+      <h3>PR & Immigration</h3>
+      <p>Permanent residency and settlement solutions.</p>
+    </div>
+  </div>
+</section>
+
+<section id="countries" class="section">
+  <h2>Countries We Serve</h2>
+  <p class="countries">
+    🇨🇦 Canada &nbsp; | &nbsp; 🇺🇸 United States &nbsp; | &nbsp; 🇬🇧 United Kingdom <br><br>
+    🇪🇺 All European Countries <br><br>
+    🌍 Tourist Visas Available Worldwide
+  </p>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact Us</h2>
+  <div class="contact-box">
+    <p><strong>Phone:</strong></p>
+    <p>+91 80540 83400</p>
+    <p>+91 94780 66114</p>
+    <p>+91 73470 30074</p>
+  </div>
+</section>
+
+<!-- WhatsApp Buttons -->
+<a class="whatsapp whatsapp1" href="https://wa.me/918054083400" target="_blank">
+  Chat 1
+</a>
+
+<a class="whatsapp whatsapp2" href="https://wa.me/919478066114" target="_blank">
+  Chat 2
+</a>
+
+<footer>
+  <p>© 2026 Bridge2Abroad | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
